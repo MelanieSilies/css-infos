@@ -1,0 +1,68 @@
+html 
+{
+    font-size: 20px;
+}
+
+#pixel-unit-example-1 
+{
+    background: tomato;
+    width: 16px;
+    height: 16px;
+}
+
+#pixel-unit-example-2 
+{
+    background: lime;
+    width: 100px;
+    height: 32px;
+}
+
+#pixel-gr-text
+{
+    font-size: 22px;
+}
+
+#pixel-noch-gr-text
+{
+    font-size: 32px;
+}
+
+.em-parent 
+{
+    font-size: 20px;
+}
+
+.em-child
+{
+    font-size: 2em;
+}
+
+.em-child-small
+{
+    font-size: 0.5em;
+}
+
+.rem-parent
+{
+    font-size: 24px;
+}
+
+.rem-child
+{
+    font-size: 2rem;
+}
+
+#vw1
+{
+    font-size: 100vw;
+}
+
+#vw2
+{
+    font-size: 75vw;
+}
+
+#vh1
+{
+    font-size: 75vh;
+}

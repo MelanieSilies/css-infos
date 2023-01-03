@@ -1,0 +1,62 @@
+img {
+    width: 300px;
+    border-color: orange;
+    border-width: 7px;
+}
+
+#dotted {
+    border-style: dotted;
+}
+
+#dashed {
+    border-style: dashed;
+}
+
+#solid {
+    border-style: solid;
+}
+
+#double {
+    border-style: double;
+}
+
+#groove {
+    border-style: groove;
+}
+
+#ridge {
+    border-style: ridge;
+}
+
+#inset {
+    border-style: inset;
+}
+
+#outset {
+    border-style: outset;
+}
+
+#specific {
+    border-top-style: solid;
+    border-top-color: brown;
+    border-bottom-style: inset;
+    border-bottom-color: blanchedalmond;
+    border-left-style: dotted;
+    border-left-color: orange;
+    border-right-style: ridge;
+    border-right-color: orange;
+}
+
+#mixed {
+    border-style: outset solid dotted groove;
+    border-width: 10px;
+}
+
+#shorthand {
+    border: 8px solid green;
+    border-top: 15px dashed greenyellow;
+}
+
+#radius {
+    border-radius: 50% 0% 20% 0%;
+}
