@@ -1,0 +1,41 @@
+a
+{
+    color: black;
+    background: lightgray;
+    padding: 5px;
+}
+
+a:hover
+{
+    color: whitesmoke;
+    background: orange;
+    padding: 5px;
+}
+
+a:active
+{
+    background: red;
+}
+
+a:visited
+{
+    background: lightblue;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: cyan;
+}
+
+.box:hover {
+    background-color: lightskyblue;
+    cursor: pointer;
+}
+
+.box:active {
+    background-color: greenyellow;
+    cursor: not-allowed;
+    width: 100px;
+    height: 100px;
+}

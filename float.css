@@ -1,0 +1,48 @@
+.box
+{
+    background: tomato;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.left
+{
+    background: lime;
+    float: left;
+}
+
+.right
+{
+    float: right;
+}
+
+p
+{
+    text-align: justify;
+}
+
+
+.käse 
+{
+    width: 100px;
+    float: right;
+    margin-left: 10px;
+}
+
+.grid .column
+{
+    float: left;
+    width: 32%;
+    height: 100px;
+    background: grey;
+    border: 1px solid black;
+}
+
+.grid .column-2
+{
+    float: left;
+    width: 25%;
+    height: 100px;
+    background: red;
+}

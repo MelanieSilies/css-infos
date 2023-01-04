@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./selector.css">
+</head>
+<body>
+    
+    <h1>Children Count</h1>
+
+    <a href="https://css-tricks.com/useful-nth-child-recipies/">Ein paar Infos zum Child Count</a>
+
+    <h2>
+        Das erste Element in einer Liste stylen.
+    </h2>
+
+    <p>
+        Mit dem Selector :first-child {} können wir das erste Kindelement eines Elternelements selektieren.
+    </p>
+
+    <ul id="list1">
+        <li>Eintrag1</li>
+        <li>Eintrag2</li>
+        <li>Eintrag3</li>
+        <li>Eintrag4</li>
+        <li>Eintrag5</li>
+    </ul>
+
+
+
+    <h2>
+        Das Letzte Element in einer Liste stylen.
+    </h2>
+
+    <p>
+        Mit dem Selector :last-child {} können wir das letzte Kindelement eines Elternelements selektieren.
+    </p>
+
+    <ul id="list2">
+        <li>Eintrag1</li>
+        <li>Eintrag2</li>
+        <li>Eintrag3</li>
+        <li>Eintrag4</li>
+        <li>Eintrag5</li>
+    </ul>
+
+
+
+    <h2>
+        Ein spezifisches Element in einer Liste stylen.
+    </h2>
+
+    <p>
+        Mit dem Selector :nth-child () {} können wir das letzte Kindelement eines Elternelements selektieren.
+    </p>
+
+    <ul id="list3">
+        <li>Eintrag1</li>
+        <li>Eintrag2</li>
+        <li>Eintrag3</li>
+        <li>Eintrag4</li>
+        <li>Eintrag5</li>
+    </ul>
+
+
+
+    <h2>
+        Grade / Ungerade Elemente stylen.
+    </h2>
+
+    <p>
+        Mit dem Selector :nth-child (even) {} / :nth-child (odd) {} können wir das letzte Kindelement eines Elternelements selektieren.
+    </p>
+
+    <ul id="list4">
+        <li>Eintrag1</li>
+        <li>Eintrag2</li>
+        <li>Eintrag3</li>
+        <li>Eintrag4</li>
+        <li>Eintrag5</li>
+        <li>Eintrag6</li>
+    </ul>
+
+
+
+    <h2>
+        Vom letzten Kind aus rückwärts selektieren.
+    </h2>
+
+    <p>
+        Mit dem Selector nth:last-child () {} können wir von hinten gezählt spezifische Elemente stylen.
+    </p>
+
+    <ul id="list5">
+        <li>Eintrag1</li>
+        <li>Eintrag2</li>
+        <li>Eintrag3</li>
+        <li>Eintrag4</li>
+        <li>Eintrag5</li>
+    </ul>
+
+
+
+    <h2>
+        AB einem bestimmten Eintrag Elemente selektieren.
+    </h2>
+
+    <p>
+        Mit dem Selector nth:child(n+eintrag Nummer) {} können wir ab einem Bestimmten Eintrag alle folgenden Elemente selektieren.
+    </p>
+
+    <ul id="list6">
+        <li>Eintrag1</li>
+        <li>Eintrag2</li>
+        <li>Eintrag3</li>
+        <li>Eintrag4</li>
+        <li>Eintrag5</li>
+    </ul>
+
+
+    <h2>
+        BIS zu einem bestimmten Eintrag Elemente selektieren.
+    </h2>
+
+    <p>
+        Mit dem Selector nth:child(n+eintrag Nummer) {} können wir BIS zu einem Bestimmten Eintrag alle vorherigen Elemente selektieren.
+    </p>
+
+    <ul id="list7">
+        <li>Eintrag1</li>
+        <li>Eintrag2</li>
+        <li>Eintrag3</li>
+        <li>Eintrag4</li>
+        <li>Eintrag5</li>
+    </ul>
+
+
+    <h2>
+        Jeden X-ten Eintrag stylen
+    </h2>
+
+    <p>
+        Wenn wir vor das n eine Zahl schreiben, seektieren wir jeden von der Zahl definierten X-ten Eintrag.
+        (4n+2)=jeder 4te Eintrag AB dem 2ten Eintrag.
+    </p>
+
+    <ul id="list8">
+        <li>Eintrag1</li>
+        <li>Eintrag2</li>
+        <li>Eintrag3</li>
+        <li>Eintrag4</li>
+        <li>Eintrag5</li>
+        <li>Eintrag6</li>
+        <li>Eintrag7</li>
+        <li>Eintrag8</li>
+        <li>Eintrag9</li>
+        <li>Eintrag10</li>
+    </ul>
+
+
+    <h2>
+        VON einem bestimmten BIS zu einem bestimmten Eintrag selektieren
+    </h2>
+
+    <p>
+        Wenn wir 2 :nth-child Selektoren nutzen, dessen erster Wert sich im Plus und dessen zweiter Wert sich im Minus befindet, können wir AB einem bestimmten BIS zu einem bestimmten Element selektieren.
+    </p>
+
+    <ul id="list9">
+        <li>Eintrag1</li>
+        <li>Eintrag2</li>
+        <li>Eintrag3</li>
+        <li>Eintrag4</li>
+        <li>Eintrag5</li>
+        <li>Eintrag6</li>
+        <li>Eintrag7</li>
+        <li>Eintrag8</li>
+        <li>Eintrag9</li>
+        <li>Eintrag10</li>
+    </ul>
+
+
+</body>
+</html>
