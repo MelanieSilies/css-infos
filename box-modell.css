@@ -1,0 +1,48 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: darkolivegreen;
+}
+
+nav ul li {
+    float: left;
+    border-right: 1px solid white;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+}
+
+nav ul li a:hover {
+    background: grey;
+}
+
+li.right {
+    float: right;
+}
+
+header {
+    background: lightgray;
+}
+
+.container {
+    background: darkgrey;
+    color: white;
+    max-width: 720px;
+    /*mit max-width stellen wir ein, wie breit ein Element maximal sein darf*/
+    margin: 0 auto;
+}
+.author {
+    font-style: italic;
+}
+
+aside {
+    border: 1px solid lightyellow;
+    padding: 10px;
+    margin-top: 20px;
+}
