@@ -1,0 +1,106 @@
+body{
+    padding-top: 120px;
+}
+.container 
+{
+    border: 5px solid black;
+}
+
+.box
+{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.erstebox
+{
+    background: tomato;
+}
+
+.zweitebox
+{
+    background: orange;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.drittebox
+{
+    background: yellow;
+    position: absolute;
+    top: 160px; 
+    /* top:160px; bezieht sich hier auf das Elternelement. In diesem Fall ist es der Body, da dem Container, welches das Elternelement ist, keine Position zugewiesen wurde. Würden wir dem Container jetzt eine Positionierung zuweisen, ginge die box 20px von oben des Containers. */
+}
+
+.viertebox
+{
+    background: yellowgreen;
+}
+
+/* .positionbox
+{
+    background: black;
+    opacity: 0.5;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+} */
+
+.advanced
+{
+    position: relative;
+}
+
+.adbox 
+{
+    background: red;
+}
+
+.fixedbox 
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+
+.stickybox 
+{
+    position: sticky;
+    background: orange;
+    top: 30px;
+    height: 50px;
+    width: 100%;
+    z-index: 100;
+}
+
+.backToTop
+{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    height: 50px;
+    width: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    z-index: 101;
+}
+
+.backToTop a {
+    font-size: 32px;
+    width: 50px;
+    padding-left: 8px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+
+.backToTop:hover{
+    background: rgba(0, 0, 0, 0.9);
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="position.css">
+</head>
+<body>
+    <h1 id="top">Position</h1>
+
+    <p>
+        Wenn wir die Art der Position mit Position definieren, können wir das Element frei platzieren.
+    </p>
+    <p>
+        Folgende Positionen können verändert werden, sowohl positiv, wie auch negativ:
+    </p>
+
+    <ul>
+        <li>
+            top = Von oben nach unten</li>
+        <li>
+            right = von rechts nach links</li>
+        <li>
+            bottom = von unten nach oben
+        </li>
+        <li>
+            left = von links nach rechts
+        </li>
+    </ul>
+
+    <p>
+        Bei position: relative; ändern wir die Position eines Elements relativ zu seiner Ausgangsposition.
+    </p>
+
+    <p>
+        bei position: absolute; platzieren wir das Element relativ zur absoluten position des Elternelements.
+    </p>
+
+    <p>
+        der Default-Wert von position: ; ist position:static; und sagt dem Element, dass es ein statischer Teil des html Baumes ist.
+    </p>
+
+    <div class="container">
+        <div class="box erstebox"></div>
+        <div class="box zweitebox"></div>
+        <div class="box drittebox"></div>
+        <div class="box viertebox"></div>
+    </div>
+
+    <h2>Randplatzierungsbeispiel</h2>
+
+    <div class="positionbox"></div>
+    <textarea name="positionbox" id="positionbox" cols="30" rows="10">.positionbox
+        {
+            background: black;
+            opacity: 0.5;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            bottom: 20px;
+            left: 20px;
+        }</textarea>
+    <p>
+        .positionbox kann genutzt werden, um Seiten "auszugrauen". Dies wird oft genutzt, wenn User etwas bestätigen müssen. Die Seite ist Sichtbar, aber nicht klickbar.
+    </p>
+    <br><br><br><br>
+
+
+    <div class="adbox fixedbox">Test</div>
+    <main class="advanced">
+        <h2>Position-Advanced</h2>
+
+        <p>
+            bei position:fixed; fixieren wir ein Element am Browserfenster. Es wird beim Scrollen nicht mehr bewegt.
+        </p>
+        <p>
+            bei position: sticky; fixieren wir den Inhalt an der Stelle im Browser, an dem wir sie Wollen. Sobald das Element vom browser scrollen eingeholt wird.
+        </p>
+
+        <p> 
+            mit Z-Index: ; können wir die Positiom eines Elements auf der Tiefenachse (z) definieren, eine höhere Zahl, egal ob im positiven oder negativen Bereich. (Wichtig: Ein Element mit z-Index MUSS eine positionierungsangabe haben.)
+        </p>
+
+        <div class="adbox stickybox">Subtopic 1</div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem quibusdam perspiciatis aspernatur labore! Magni amet aut perspiciatis soluta. Obcaecati odio, maxime eum eius dolorem blanditiis dignissimos iste, aspernatur repellat temporibus distinctio fugit iure repellendus enim a totam possimus vel quos quasi qui exercitationem corrupti, beatae ducimus. Sed provident earum necessitatibus, harum, alias voluptatem ipsam, aperiam numquam eveniet adipisci fugiat quod nostrum. Accusantium, quibusdam necessitatibus, iste nisi culpa pariatur minima exercitationem perferendis corrupti odit, aliquid reiciendis obcaecati modi aliquam est. Id esse eligendi, officiis odio, eius illo mollitia ipsa inventore maiores voluptatibus, itaque praesentium explicabo qui magni cumque perspiciatis blanditiis et quod velit odit? Inventore numquam voluptas dolorem fugiat iure voluptatibus quas qui, odit eos consectetur quos enim quia sed impedit et accusamus nisi ipsa reiciendis ipsam vel corrupti. Debitis eos quod facilis eveniet corrupti modi omnis incidunt architecto ipsum optio quia rem, possimus iure est excepturi animi quae officia corporis inventore. Ratione velit numquam tempora aliquam assumenda, voluptas cum, laboriosam eligendi ducimus beatae exercitationem corrupti dolorum commodi consectetur quis voluptates labore, molestiae deserunt excepturi aliquid. Voluptatum aliquid sed ullam harum in obcaecati fugit sequi quos magnam nihil libero ipsa itaque earum vel odit quam dicta, atque quisquam repellat labore unde nemo quia aperiam. Fugit unde eum quidem. Fugiat vel, ea quas neque cum ullam labore reiciendis! Fugit, aliquam minus numquam est voluptates, rerum tempora exercitationem dolore, eius qui libero nisi. Temporibus quae, quasi, aspernatur ea veniam assumenda minus similique necessitatibus, autem expedita optio eaque. Blanditiis, incidunt natus dolor inventore totam quibusdam beatae, recusandae libero eveniet molestiae esse iure porro. Quisquam, magnam. Quos nisi dolores aut distinctio culpa reprehenderit nihil praesentium ducimus sequi corporis iste, deserunt odit ex repellendus incidunt deleniti aliquam quae quidem soluta porro aspernatur iure consequatur reiciendis. Vitae modi nobis possimus ut accusamus porro qui corrupti omnis itaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, numquam possimus? Corrupti commodi quibusdam placeat veritatis dolorem officiis reiciendis exercitationem earum, illo beatae sequi molestiae ratione saepe ad odit animi excepturi minus velit fugiat deserunt sapiente cumque accusamus et iste! Nemo iure a, ratione corporis unde necessitatibus laboriosam possimus perspiciatis itaque, veritatis porro et modi similique velit quisquam quam! Aliquam quia voluptate suscipit quisquam recusandae possimus? Consectetur, fugit ut illo magnam tempore ratione aperiam deleniti, eaque perspiciatis enim tempora repellat officiis voluptate dolor. Aperiam, ratione eum quasi tempora quam ipsum aspernatur inventore? Accusantium voluptatem nemo et facilis eius corrupti repellendus. Praesentium, quibusdam neque sunt totam eligendi iusto error iste aspernatur earum voluptate tempora harum, qui repudiandae maxime veniam vitae nam! Officia dolorum exercitationem magnam distinctio cupiditate enim totam perspiciatis ipsa, debitis, possimus sunt. Incidunt necessitatibus ea voluptatem laboriosam, quas eaque facilis alias commodi pariatur mollitia fugiat blanditiis eius corrupti, laudantium fugit, distinctio doloremque perspiciatis. Distinctio numquam enim aut minima rem velit amet, quam totam delectus officiis quo laudantium quia eum optio atque omnis, nam tempore nisi maxime consequatur, provident animi quaerat! Perferendis, praesentium molestiae minus ut unde doloremque, pariatur quia dolore quidem amet modi doloribus at quos distinctio repellat blanditiis?</p>
+
+        <div class="adbox stickybox">Subtopic 2</div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem quibusdam perspiciatis aspernatur labore! Magni amet aut perspiciatis soluta. Obcaecati odio, maxime eum eius dolorem blanditiis dignissimos iste, aspernatur repellat temporibus distinctio fugit iure repellendus enim a totam possimus vel quos quasi qui exercitationem corrupti, beatae ducimus. Sed provident earum necessitatibus, harum, alias voluptatem ipsam, aperiam numquam eveniet adipisci fugiat quod nostrum. Accusantium, quibusdam necessitatibus, iste nisi culpa pariatur minima exercitationem perferendis corrupti odit, aliquid reiciendis obcaecati modi aliquam est. Id esse eligendi, officiis odio, eius illo mollitia ipsa inventore maiores voluptatibus, itaque praesentium explicabo qui magni cumque perspiciatis blanditiis et quod velit odit? Inventore numquam voluptas dolorem fugiat iure voluptatibus quas qui, odit eos consectetur quos enim quia sed impedit et accusamus nisi ipsa reiciendis ipsam vel corrupti. Debitis eos quod facilis eveniet corrupti modi omnis incidunt architecto ipsum optio quia rem, possimus iure est excepturi animi quae officia corporis inventore. Ratione velit numquam tempora aliquam assumenda, voluptas cum, laboriosam eligendi ducimus beatae exercitationem corrupti dolorum commodi consectetur quis voluptates labore, molestiae deserunt excepturi aliquid. Voluptatum aliquid sed ullam harum in obcaecati fugit sequi quos magnam nihil libero ipsa itaque earum vel odit quam dicta, atque quisquam repellat labore unde nemo quia aperiam. Fugit unde eum quidem. Fugiat vel, ea quas neque cum ullam labore reiciendis! Fugit, aliquam minus numquam est voluptates, rerum tempora exercitationem dolore, eius qui libero nisi. Temporibus quae, quasi, aspernatur ea veniam assumenda minus similique necessitatibus, autem expedita optio eaque. Blanditiis, incidunt natus dolor inventore totam quibusdam beatae, recusandae libero eveniet molestiae esse iure porro. Quisquam, magnam. Quos nisi dolores aut distinctio culpa reprehenderit nihil praesentium ducimus sequi corporis iste, deserunt odit ex repellendus incidunt deleniti aliquam quae quidem soluta porro aspernatur iure consequatur reiciendis. Vitae modi nobis possimus ut accusamus porro qui corrupti omnis itaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, numquam possimus? Corrupti commodi quibusdam placeat veritatis dolorem officiis reiciendis exercitationem earum, illo beatae sequi molestiae ratione saepe ad odit animi excepturi minus velit fugiat deserunt sapiente cumque accusamus et iste! Nemo iure a, ratione corporis unde necessitatibus laboriosam possimus perspiciatis itaque, veritatis porro et modi similique velit quisquam quam! Aliquam quia voluptate suscipit quisquam recusandae possimus? Consectetur, fugit ut illo magnam tempore ratione aperiam deleniti, eaque perspiciatis enim tempora repellat officiis voluptate dolor. Aperiam, ratione eum quasi tempora quam ipsum aspernatur inventore? Accusantium voluptatem nemo et facilis eius corrupti repellendus. Praesentium, quibusdam neque sunt totam eligendi iusto error iste aspernatur earum voluptate tempora harum, qui repudiandae maxime veniam vitae nam! Officia dolorum exercitationem magnam distinctio cupiditate enim totam perspiciatis ipsa, debitis, possimus sunt. Incidunt necessitatibus ea voluptatem laboriosam, quas eaque facilis alias commodi pariatur mollitia fugiat blanditiis eius corrupti, laudantium fugit, distinctio doloremque perspiciatis. Distinctio numquam enim aut minima rem velit amet, quam totam delectus officiis quo laudantium quia eum optio atque omnis, nam tempore nisi maxime consequatur, provident animi quaerat! Perferendis, praesentium molestiae minus ut unde doloremque, pariatur quia dolore quidem amet modi doloribus at quos distinctio repellat blanditiis?</p>
+    </main>
+
+    <div class="backToTop">
+        <a href="#top">▲</a>
+    </div>
+
+
+
+
+</body>
+</html>
