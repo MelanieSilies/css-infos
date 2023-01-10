@@ -1,0 +1,17 @@
+.box
+{
+    margin-top: 20px;
+    display: block;
+    height: 300px;
+    width: 300px;
+    border: 2px solid grey;
+}
+
+.farbbox 
+{
+    background: tomato;
+}
+
+.farbbildbox {
+    background-color: tomato url(https://unsplash.com/de/fotos/oxtlu_MSeKw);
+}
