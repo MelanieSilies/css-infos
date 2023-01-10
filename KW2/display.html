@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="display.css">
+</head>
+<body>
+    <h1>Display</h1>
+
+    <p>
+        Mit display: ; können wir festlegen, wie sich ein Element in Zusammenhang mit anderen Elementen verhält. Der Default-Wert ist display: block;. Außer bei Text-elementen wie em, a, b sind im Standardfall mit display: inline; belegt.
+    </p>
+
+    <br><br>
+
+    <h2>display: block;</h2>
+    <div class="blockbox">Hallo Box</div>
+
+    <p>
+        Mit display: block; sorgen wir dafür, dass ein Element 100% breit ist und den ganzen Platz der definierten Seitenbreite einnimmt, wenn wir also ein weiteres Element danach einfügen, wird es in die nächste Zeile rutschen.
+    </p>
+
+    <div class="box" id="displayblock">Hallo Welt</div>
+
+    <h2>display: none;</h2>
+
+    <p>
+        display: none; versteckt ein Element komplett. Es nimmt dann auch keinen Platz mehr auf der html Seite ein.
+    </p>
+
+    <div class="box" id="none"></div>
+
+    <br><br>
+
+    <h2>display: inline-block</h2>
+    <p>
+        display: inline-block sorgt dafür, dass wir Block-Elemente nebeneinander legen können. Alle Styles, wie widht oder height funktionieren hier trotzdem noch.
+    </p>
+    <b>
+        Es gibt in css einen Bug, der dafür sorgt, das Elemente die nebeneinander liegen, ein display: inline-block; ein unsichtbares Leerzeichen zwischen ihnen hat, um diese zu beheben, gibt es ein paar Möglichkeiten. Die zuverlässige (Standard-) Lösung ist in der Zeile wo ein Element endet, einen Kommentar anzufangen und beim nächsten Element das Kommentar zu beenden
+    </b>
+<br><br>
+     <div class="box display-inline-block">Hallo Box</div> <!--   
+     --> <div class="box display-inline-block">Hallo Box</div> 
+
+    <div class="box display-inline-block">Hallo Box</div>
+
+    <br><br> 
+
+    <h2>display: inline;</h2>
+
+    <p>
+        display: inline; legt die Elemente nebeneinander, aber styles, die mit Größenangaben zu tun haben, werden ignoriert.
+        Wird nur für Text genutzt, nicht für Elemente.
+    </p>
+    <br><br>
+
+    <div class="box display-inline">Hallo Box</div>
+    <div class="box display-inline">Hallo Box</div>
+    <div class="box display-inline">Hallo Box</div>
+
+    <br><br>
+
+    <h2>Ein Beispiel für Web-Design mit 2 Elemtenten nebeneinander</h2>
+
+    <div class="box-left">menu</div>
+    <div class="box-right">Content</div>
+
+
+</body>
+</html>

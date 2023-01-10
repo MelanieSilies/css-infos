@@ -1,0 +1,104 @@
+body {
+    background: lightgrey;
+}
+
+.beispielbox {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.innen {
+    background: lime;
+    width: 100px;
+    height: 100px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border: 2px solid black;
+}
+
+#paddingtop {
+    padding-top: 10px;
+}
+
+#paddingright {
+    padding-right: 10px;
+}
+
+#paddingbottom {
+    padding-bottom: 10px;
+}
+
+#paddingleft {
+    padding-left: 10px;
+}
+
+#paddingshort {
+    padding: 10px 20px 0 30px;
+}
+
+
+.aussen {
+    border: 6px solid lime;
+    min-width: 100px;
+    display: inline-block;
+}
+
+#margin-top {
+    margin-top: 10px;
+}
+
+#margin-right {
+    margin-right: 10px;
+}
+
+#margin-bottom {
+    margin-bottom: 10px;
+}
+
+#margin-left {
+    margin-left: 10px;
+    clear: both;
+}
+/* Clear: sorgt dafür, dass der Float aufgehoben wird */
+
+
+#margin-short {
+    margin: 10px 5px 20px 40px;
+}
+
+#padding-p {
+    background: red;
+    border: 1px solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+#margin-auto {
+    margin: 0 auto;
+}
+
+img {
+    width: 100px;
+    padding: 10px;
+    background: red;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+a {
+    border: 1px solid black;
+    padding: 20px;
+    background: red;
+}
+
+a:hover {
+    background: lime;
+}

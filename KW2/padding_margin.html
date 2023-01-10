@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padding & Margin</title>
+
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="padding_margin.css">
+
+</head>
+<body>
+    <h1>Padding und Margin</h1>
+    <b>
+        Der Default-Wert von Padding und Mrgin ist 0. Allerdings haben Elemente wie p oder H1 ein vorgegebenes Margin oder padding (Standardmäßig nach oben und unten)
+    </b>
+
+    <p>
+        Mit Padding und Marginkönnen wir die Anstände innerhalb und Zwischen Elementen angeben.
+    </p>
+
+<ul>
+    <li>padding = Abstand von Inhalt zum Rand des Elements</li>
+    <li>border = der stylebare Rand des Elements</li>
+    <li>margin = Abstand vom Element zum nächsten Element</li>
+</ul>
+
+<div class="beispielbox">
+    <div class="innen">Hallo Box</div>
+</div>
+
+<h2>padding</h2>
+<div class="box" id="paddingtop">
+    <div class="innen">Hallo Box</div>
+</div>
+
+<div class="box" id="paddingright">
+    <div class="innen">Hallo Box</div>
+</div>
+
+<div class="box" id="paddingbottom">
+    <div class="innen">Hallo Box</div>
+</div>
+
+<div class="box" id="paddingleft">
+    <div class="innen">Hallo Box</div>
+</div>
+
+ <br>
+
+<b>Shortcode</b>
+<div class="box" id="paddingshort">
+    <div class="innen">Hallo Box</div>
+</div>
+
+<br>
+
+<h2>Margin</h2>
+
+<div class="aussen">
+<div class="box" id="margin-top">Hallo Box</div>
+<div class="box" id="margin-right">Hallo Box</div>
+<div class="box" id="margin-bottom">Hallo Box</div>
+<div class="box" id="margin-left">Hallo Box</div>
+</div>
+
+<b>Shortcode</b>
+
+<div class="box" id="margin-short">Hallo Box</div>
+
+<h2>Padding beim Paragraphen</h2>
+
+<p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis quidem similique laboriosam accusamus! Dolore distinctio deleniti eligendi voluptatibus, ad accusantium molestias, facere placeat nisi id, iusto culpa expedita voluptates? <em id="padding-p"> Magni molestiae quae exercitationem ipsum.</em> Porro consequuntur ullam vero delectus, maxime nemo quisquam magni ab aperiam minus possimus corrupti, dicta dolor velit accusantium sapiente aut. Officia, explicabo. In facere harum itaque deserunt saepe, modi unde enim. Cum molestiae corporis unde dolore? Minus autem laboriosam facilis aliquam iusto corrupti nostrum earum? Deserunt cum voluptates, incidunt asperiores obcaecati neque eum quidem beatae id necessitatibus, porro repudiandae harum a at impedit rem cumque sapiente temporibus delectus fuga. Adipisci vero ipsa nostrum commodi eligendi iure quaerat illo molestias debitis? Repudiandae aspernatur at praesentium reiciendis expedita sed repellat inventore dolores dolorum minima modi voluptates error laboriosam eaque, recusandae minus corrupti corporis itaque perferendis ea exercitationem.
+</p>
+
+<h2>Horizontales zentrieren von Inhalten</h2>
+
+<p>
+    mit margin: 0 auto; können wir Elemente innerhalb eines Elementes (meist dem Haupt-Seiteninhalt) zentrieren.
+</p>
+
+<div class="box" id="margin-auto"></div>
+
+<h2>Padding bei Bildern</h2>
+
+<p>Wenn man einem img Element ein Padding gibt, erweitert man die Box in der sich das Bild befindet, aber nicht das Bild.</p>
+
+<img src="./IMG_20221227_154405.jpg" alt="Beispielbild">
+
+<h2>Padding bei Links</h2>
+<a href="#">Ich bin ein Link</a>
+
+
+
+</body>
+</html>
